@@ -1,0 +1,33 @@
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FED7E2;
+}
+
+.button {
+    background-color: #0078FF;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 164px;
+    font-family: unset;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.fadeInDiv {
+    display: block;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fadeOutDiv {
+    opacity: 1;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    transform: translateY(0);
+}
